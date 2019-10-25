@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium online 06" parallel="tests" thread-count="3">
+
+  <parameter name="email" value="automation06@gmail.com"/>
+  <parameter name="pass" value="123456"/>
+  
+   <test name="Run on FIREFOX"> 
+  <parameter name="browser" value="firefox"/>
+       <classes>
+      <class name="testNG_framework.TestNG_06_Loop"/>
+    </classes>
+  </test> 
+  
+    <test name="Run on CHROME">
+    <parameter name="browser" value="chrome"/>
+       <classes>
+      <class name="testNG_framework.TestNG_06_Loop"/>
+    </classes>
+  </test> 
+  
+  
+    <test name="Run on CHROME HEADLESS">
+    <parameter name="browser" value="headless"/>
+       <classes>
+      <class name="testNG_framework.TestNG_06_Loop"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 

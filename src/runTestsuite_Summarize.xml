@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SUMMARY">
+    <suite-files>
+        <suite-file path="runTestsuite_01.xml" />
+        <suite-file path="runTestsuite_02.xml" />
+    </suite-files>
+   
+</suite> 
